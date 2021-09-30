@@ -1,0 +1,23 @@
+http://192.168.3.17:20002
+
+mutation MyMutation {
+  createPost(input: {type: "post", content: "test3", timestamp: 1012345}) {
+    content
+    id
+    owner
+    timestamp
+    type
+  }
+}
+
+query MyQuery {
+  listPosts {
+    items {
+      content
+      id
+      owner
+      timestamp
+      type
+    }
+  }
+}
