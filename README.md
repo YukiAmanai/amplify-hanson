@@ -1,2 +1,0 @@
-# amplify-hanson
-# amplify-hanson
