@@ -1,26 +1,28 @@
+# http://192.168.3.17:20002
+
+# mutation MyMutation {
+#   __typename
+# }
+
+# query MyQuery {
+#   listPostsBySpecificOwner(owner: "user_2", sortDirection: ASC) {
+#     items {
+#       content
+#       id
+#       owner
+#       timestamp
+#       type
+#     }
+#   }
+#   listPostsSortedByTimestamp(type: "post", sortDirection: ASC) {
+#     items {
+#       content
+#       id
+#       owner
+#       timestamp
+#       type
+#     }
+#   }
+# }
+
 http://192.168.3.17:20002
-
-mutation MyMutation {
-  __typename
-}
-
-query MyQuery {
-  listPostsBySpecificOwner(owner: "user_2", sortDirection: ASC) {
-    items {
-      content
-      id
-      owner
-      timestamp
-      type
-    }
-  }
-  listPostsSortedByTimestamp(type: "post", sortDirection: ASC) {
-    items {
-      content
-      id
-      owner
-      timestamp
-      type
-    }
-  }
-}
