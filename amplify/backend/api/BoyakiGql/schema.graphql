@@ -20,7 +20,6 @@ type Post
   timestamp: Int!
 }
 
-
 type FollowRelationship
 	@model(
     mutations: {create: "createFollowRelationship", delete: "deleteFollowRelationship", update: null}
