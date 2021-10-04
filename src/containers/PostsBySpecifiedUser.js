@@ -64,7 +64,7 @@ export default function PostsBySpecifiedUser() {
   }
 
   const follow = async () => {
-    console.log('follow')
+    // console.log('follow')
     const input = {
       followeeId: userId,
       followerId: currentUser.username,
@@ -76,7 +76,7 @@ export default function PostsBySpecifiedUser() {
   }
 
   const unfollow = async() => {
-    console.log('unfollow');
+    // console.log('unfollow');
     const input = {
       followeeId: userId,
       followerId: currentUser.username,
