@@ -8,7 +8,7 @@ describe('Authenticator:', function() {
               'y-amanai'
             );
             cy.get(selectors.signInPasswordInput).type(
-              '<15152525D>'
+              '<15152525A>'
             );
             cy.get(selectors.signInSignInButton).contains('Sign In').click();
             cy.wait(3000)
