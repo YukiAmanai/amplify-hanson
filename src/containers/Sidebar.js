@@ -161,18 +161,16 @@ export default function Sidebar({activeListItem}) {
             />
           } />
         </ListItem>
-        <ListItem key='post-button'>
-          <ListItemText primary={
-            <Button
-              variant="contained"
-              color="primary"
-              disabled={isError}
-              onClick={onPost}
-              fullWidth
-            >
-              Post
-            </Button>
-          } />
+        <ListItem key='logout'>
+    <ListItemText primary={
+    <Button
+        variant="outlined"
+        onClick={signOut}
+        fullWidth
+    >
+        Sign out
+    </Button>
+} />
         </ListItem>
         <ListItem key='logout'>
           <ListItemText primary={
